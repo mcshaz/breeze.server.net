@@ -398,7 +398,7 @@ namespace Breeze.ContextProvider {
     }
 
     public ContextProvider ContextProvider { get; internal set; }
-    public Object Entity { get; internal set; }
+    public object Entity { get; set; }
     public EntityState EntityState { get;  set; }
     public Dictionary<String, Object> OriginalValuesMap { get;  set; }
     public bool ForceUpdate { get; set; }
